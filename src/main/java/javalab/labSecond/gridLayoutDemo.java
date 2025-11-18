@@ -11,7 +11,7 @@ public class gridLayoutDemo {
 
         frame.setLayout(new GridLayout(2, 3, 10, 10)); // 2 rows, 3 columns, gaps
 
-        for (int i = 1; i <= 2; i++) {
+        for (int i = 1; i <= 2  ; i++) {
             frame.add(new JButton("Button " + i));
         }
 

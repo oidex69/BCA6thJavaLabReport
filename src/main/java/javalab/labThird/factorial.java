@@ -43,7 +43,6 @@ public class factorial {
 
                 } catch (NumberFormatException ex) {
                     rst.setText("Please Input a valid number for result");
-                    return;
                 }
             }
         });

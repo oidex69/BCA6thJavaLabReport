@@ -14,6 +14,7 @@ public class mouseListen {
 
         JPanel p1 = new JPanel(new FlowLayout(FlowLayout.CENTER));
         p1.add(new Label("MouseListener"));
+        System.out.println("hello world");
         jf.add(p1);
 
         JPanel p2 = new JPanel(new FlowLayout(FlowLayout.CENTER));

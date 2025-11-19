@@ -27,7 +27,7 @@ public class myWin {
         
         JTable table = new JTable(model);
 
-        JScrollPane scrollPane = new JScrollPane(table);JTable tb = new JTable(model);
+        JScrollPane scrollPane = new JScrollPane(table);
         jf.add(scrollPane);
         jf.setVisible(true);
     }

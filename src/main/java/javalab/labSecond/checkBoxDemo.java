@@ -6,7 +6,7 @@ import java.awt.*;
 public class checkBoxDemo {
     public static void main(String[] args) {
         JFrame jf = new JFrame("Check Box Demo");
-        jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        jf.setDefaultCloseOperation(3);
         jf.setSize(600,400);
 
         Panel pn = new Panel(new GridLayout(8,1));
